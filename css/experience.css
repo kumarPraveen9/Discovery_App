@@ -54,6 +54,31 @@
     transition: 0.6s;
 
 }
+.ttt{
+    font-size: 350%;
+    padding-left: 75px;
+    padding-top: 73px;
+}
+
+.tt1{
+    font-size: 350%;
+    padding-left: 75px;
+    padding-top: 73px;
+}
+
+.pk{
+    font-size: 350%;
+ 
+}
+
+.pk1{
+    font-size: 350%;
+ 
+}
+.pk2{
+    font-size: 350%;
+ 
+}
 b{
     opacity: 0.8;
 }
@@ -388,9 +413,11 @@ justify-content: center; */
     float: left;
     /* border-style:dotted ;
     border-color: rgb(10, 11, 11); */
-    margin-left: 100px;
+    margin-left: 222px;
     margin-top: 180px;
 }
+
+
 
 .mainimg
 {
@@ -505,6 +532,19 @@ border-color: rgb(13, 14, 14); */
 
 }
 
+.adia
+{
+    height:"855px" ;width:"705px";
+          margin-left: "951px";position: absolute;
+}
+
+.adia img{
+    height:"850px"; width:"700px"
+    "margin-left: 951px;"
+}
+
+
+
 .butt3on{
     height: 75px;
     width: 190px;
@@ -519,4 +559,404 @@ border-color: rgb(13, 14, 14); */
     cursor: pointer;
     position: relative;
     overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .content h1{
+        
+        font-size: 40px;
+        
+    }
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+        
+
+      }
+    .navbar{
+        flex-direction: column;
+    }
+  
+    
+      .navbar ul li {
+display: list-item;
+        flex-direction: column;
+        
+        margin: 1em 0;
+        
+        
+      }
+
+      .main_t table tr {
+        border-bottom: 0px solid #ddd;
+        display: block;
+        margin-bottom: -0.5em;
+        font-size: 12px;
+        text-align: center;
+       
+      }
+      
+      .main_t table td {
+        border-bottom: 0.5px solid #ddd;
+        display: block;
+        font-size: 1.2em;
+        text-align: center;
+        margin-top: 8px;
+      }
+     
+      
+      .main_t table td::before {
+        /*
+        * aria-label has no advantage, it won't be read inside a table
+        content: attr(aria-label);
+        */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      
+      .main_t table td:last-child {
+        border-bottom: 0;
+      }
+    
+      .credit img{
+        margin-left: 100px;
+        margin-top:100px ;
+      }
+
+      .credit p{
+        color: white;
+        margin-left: 20px;
+        margin-top: 300px;
+        opacity: 0.5;
+      }
+
+      .tably table{
+        margin-left: -649px;
+        margin-top: 116px;
+      }
+      .tably table tr {
+        display: list-item;
+        display: block;
+        margin-right: -78px;
+       
+        text-align: center;
+       
+      }
+
+      #ddd{
+        width:100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        
+      }
+      .credit{
+        width: 100%;
+        height: 900px;
+       
+    }
+    .pre
+    {
+      margin-left: 30px;
+      margin-bottom: 11px;
+    }
+
+    #pr1{
+      width: 100%;
+    }
+
+    .content{
+        top: 60%;
+    }
+
+    .content h1{
+        margin-top: 80px;
+        font-size: 40px;
+        font-family:'gt-sectra';
+        font-family:'gt-gotham';
+        font-weight: 200;
+        margin-bottom:-50px;
+        margin-right: 700px;
+        width: 76%;
+        margin-top: 235px;
+    }
+
+    
+  .immg{
+    background-image: url('../assets/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg');
+    /* background-repeat: no-repeat; */
+    background-attachment: absolute;
+    background-size: 100% 100%;
+    height: 450px;
+    width: 501px;
+    
+    margin-top: -20px;
+    margin-left: -90px;
+}
+
+.ik_text
+{
+    height: 500px;
+    width: 500px;
+    
+    margin-top: 100px;
+    margin-left: 4px;
+
+}
+
+.img2 img{
+    width: 0px;
+    margin-top: 249px;
+    position:absolute;
+}
+  .img1 img{
+    position: relative;
+    height: 500px;
+    width: 300px;
+    margin-left: -7px;
+  } 
+
+  .ss{
+    margin-left: 2px;
+  }
+
+  .we_t{
+    margin-left: -185px;
+  }
+
+  .earth{
+    height: 459px;
+  }
+  .content2
+{
+    width: 800px;
+    height: 500px;
+    /* border-style: dotted;
+    border-color: #333; */
+    margin-left:7px ;
+    padding-top: 231px;
+}
+
+
+.ik{
+    height: 3907px;
+    width: 100%;
+    /* border-style: dotted;
+    border-color: #e84393;
+    border-radius: 5px; */
+}
+    
+  }
+  @media screen and (min-width: 600px) and (max-width: 918px) {
+    
+    .content h1{
+        
+        font-size: 55px;
+        
+    }
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+        
+
+      }
+    .navbar{
+        flex-direction: column;
+    }
+  
+    
+      .navbar ul li {
+         display: list-item;
+        flex-direction: column;
+        
+        margin: 1em 0;
+        
+        
+      }
+
+      .main_t table tr {
+        border-bottom: 0px solid #ddd;
+        display: block;
+        margin-bottom: -0.5em;
+        font-size: 20px;
+        text-align: center;
+       
+      }
+      
+      .main_t table td {
+        border-bottom: 0.5px solid #ddd;
+        display: block;
+        font-size: 1.8em;
+        text-align: center;
+        margin-top: 13px;
+      }
+     
+      
+      .main_t table td::before {
+        /*
+        * aria-label has no advantage, it won't be read inside a table
+        content: attr(aria-label);
+        */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      
+      .main_t table td:last-child {
+        border-bottom: 0;
+      }
+      .credit{
+        width: 100%;
+        height: 900px;
+       
+    }
+      .credit img{
+        margin-left: 40px;
+      }
+
+      .credit p{
+        color: white;
+        margin-left: 40px;
+        margin-top: 330px;
+
+        opacity: 0.5;
+      }
+
+      .tably table{
+        margin-left: -449px;
+        margin-top: 100px;
+      }
+      .tably table tr {
+        display: list-item;
+        display: block;
+       width:100%;
+       margin-right: -92px;
+     height: 0px;
+        text-align: center;
+       
+      }
+
+      .tably table td{
+        height: 50px;
+      }
+
+      .pre
+      {
+        margin-left: 30px;
+        margin-bottom: 11px;
+      }
+
+      #pr1{
+        width: 100%;
+      }
+
+      #ddd{
+        width:100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        
+      }
+     
+.content{
+
+    top:70%
+}
+
+.content h1{
+    margin-top: 80px;
+    font-size: 55px;
+    font-family:'gt-sectra';
+    font-family:'gt-gotham';
+    font-weight: 200;
+    margin-bottom:-200px;
+    margin-right: 700px;
+    width: 63%;
+}
+      
+  .immg{
+    background-image: url('../assets/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg');
+    /* background-repeat: no-repeat; */
+    background-attachment: absolute;
+    background-size: 100% 100%;
+    height: 750px;
+    width: 915px;
+    
+    margin-top: -20px;
+    margin-left: -74px;
+}
+
+.ik_text
+{
+    height: 500px;
+    width: 500px;
+    
+    margin-top: 100px;
+    margin-left: 54px;
+
+}
+
+.img2 img{
+    width: 0px;
+    margin-top: 249px;
+    position:absolute;
+}
+  .img1{
+    position: relative;
+  } 
+
+  .ss{
+    margin-left: 17px;
+  }
+
+  .we_t{
+    margin-left: -177px;
+  }
+
+  .earth{
+    height: 459px;
+  }
+
+  .pk{
+    font-size: 293%;
+    margin-left: -298px;
+}
+
+.pk1{
+    font-size: 293%;
+    margin-left: -317px;
+}
+
+.pk2{
+    font-size: 293%;
+    margin-left: -503px;
+}
+
+.maintxt
+{
+    height: 500px;
+    width: 500px;
+    float: left;
+    /* border-style:dotted ;
+    border-color: rgb(10, 11, 11); */
+    margin-left: 94px;
+    margin-top: -169px;
+}
+
+ .adia img{
+    height:"550px"; 
+    width:"400px";
+    position: absolute;
+    margin-left: "11px";
+    margin-top: 362px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
 }
