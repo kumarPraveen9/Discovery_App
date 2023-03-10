@@ -344,6 +344,182 @@ button:hover{
     padding-top: 231px;
 }
 
+
+@media screen and (min-width: 600px) and (max-width: 918px) {
+    
+  .content h1{
+      
+      font-size: 55px;
+      
+  }
+  .navbar ul {
+      flex-direction: column;
+      text-align: center;
+      
+
+    }
+  .navbar{
+      flex-direction: column;
+  }
+
+  
+    .navbar ul li {
+       display: list-item;
+      flex-direction: column;
+      
+      margin: 1em 0;
+      
+      
+    }
+
+    .main_t table tr {
+      border-bottom: 0px solid #ddd;
+      display: block;
+      margin-bottom: -0.5em;
+      font-size: 20px;
+      text-align: center;
+     
+    }
+    
+    .main_t table td {
+      border-bottom: 0.5px solid #ddd;
+      display: block;
+      font-size: 1.8em;
+      text-align: center;
+      margin-top: 13px;
+    }
+   
+    
+    .main_t table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    .main_t table td:last-child {
+      border-bottom: 0;
+    }
+    .credit{
+      width: 100%;
+      height: 900px;
+     
+  }
+    .credit img{
+      margin-left: 40px;
+    }
+
+    .credit p{
+      color: white;
+      margin-left: 40px;
+      margin-top: 330px;
+
+      opacity: 0.5;
+    }
+
+    .tably table{
+      margin-left: -449px;
+      margin-top: 100px;
+    }
+    .tably table tr {
+      display: list-item;
+      display: block;
+     width:100%;
+     margin-right: -92px;
+   height: 0px;
+      text-align: center;
+     
+    }
+
+    .tably table td{
+      height: 50px;
+    }
+
+    .pre
+    {
+      margin-left: 30px;
+      margin-bottom: 11px;
+    }
+
+    #pr1{
+      width: 100%;
+    }
+
+    #ddd{
+      width:100%;
+      height: 10vh;
+      display: flex;
+      flex-direction: column;
+      margin-right: 0px;
+      
+    }
+   
+.content{
+
+  top:70%
+}
+
+.content h1{
+  margin-top: 80px;
+  font-size: 55px;
+  font-family:'gt-sectra';
+  font-family:'gt-gotham';
+  font-weight: 200;
+  margin-bottom:-200px;
+  margin-right: 700px;
+  width: 63%;
+}
+    
+.immg{
+  background-image: url('../assets/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg');
+  /* background-repeat: no-repeat; */
+  background-attachment: absolute;
+  background-size: 100% 100%;
+  height: 750px;
+  width: 915px;
+  
+  margin-top: -20px;
+  margin-left: -74px;
+}
+
+.ik_text
+{
+  height: 500px;
+  width: 500px;
+  
+  margin-top: 100px;
+  margin-left: 175px;
+
+}
+
+.img2 img{
+  width: 0px;
+  margin-top: 249px;
+  position:absolute;
+}
+.img1{
+  position: relative;
+} 
+
+.ss{
+  margin-left: 243px;
+}
+
+.we_t{
+  margin-left: 2px;
+}
+
+.earth{
+  height: 459px;
+}
+}
+
+
+
 @media screen and (max-width: 600px) {
     .content h1{
         
@@ -486,7 +662,7 @@ display: list-item;
     width: 500px;
     
     margin-top: 100px;
-    margin-left: 4px;
+    margin-left: 36px;
 
 }
 
@@ -499,11 +675,11 @@ display: list-item;
     position: relative;
     height: 500px;
     width: 300px;
-    margin-left: -7px;
+    margin-left: 58px;
   } 
 
   .ss{
-    margin-left: 2px;
+    margin-left: 118px;
   }
 
   .we_t{
@@ -515,11 +691,11 @@ display: list-item;
   }
   .content2
 {
-    width: 800px;
+    width: 300px;
     height: 500px;
     /* border-style: dotted;
     border-color: #333; */
-    margin-left:7px ;
+    margin-left:99px ;
     padding-top: 231px;
 }
 
@@ -531,180 +707,13 @@ display: list-item;
     border-color: #e84393;
     border-radius: 5px; */
 }
+
+.abv_eart{
+  width: 306px;
+}
     
   }
-  @media screen and (min-width: 600px) and (max-width: 918px) {
-    
-    .content h1{
-        
-        font-size: 55px;
-        
-    }
-    .navbar ul {
-        flex-direction: column;
-        text-align: center;
-        
-
-      }
-    .navbar{
-        flex-direction: column;
-    }
   
-    
-      .navbar ul li {
-         display: list-item;
-        flex-direction: column;
-        
-        margin: 1em 0;
-        
-        
-      }
-
-      .main_t table tr {
-        border-bottom: 0px solid #ddd;
-        display: block;
-        margin-bottom: -0.5em;
-        font-size: 20px;
-        text-align: center;
-       
-      }
-      
-      .main_t table td {
-        border-bottom: 0.5px solid #ddd;
-        display: block;
-        font-size: 1.8em;
-        text-align: center;
-        margin-top: 13px;
-      }
-     
-      
-      .main_t table td::before {
-        /*
-        * aria-label has no advantage, it won't be read inside a table
-        content: attr(aria-label);
-        */
-        content: attr(data-label);
-        float: left;
-        font-weight: bold;
-        text-transform: uppercase;
-      }
-      
-      .main_t table td:last-child {
-        border-bottom: 0;
-      }
-      .credit{
-        width: 100%;
-        height: 900px;
-       
-    }
-      .credit img{
-        margin-left: 40px;
-      }
-
-      .credit p{
-        color: white;
-        margin-left: 40px;
-        margin-top: 330px;
-
-        opacity: 0.5;
-      }
-
-      .tably table{
-        margin-left: -449px;
-        margin-top: 100px;
-      }
-      .tably table tr {
-        display: list-item;
-        display: block;
-       width:100%;
-       margin-right: -92px;
-     height: 0px;
-        text-align: center;
-       
-      }
-
-      .tably table td{
-        height: 50px;
-      }
-
-      .pre
-      {
-        margin-left: 30px;
-        margin-bottom: 11px;
-      }
-
-      #pr1{
-        width: 100%;
-      }
-
-      #ddd{
-        width:100%;
-        height: 10vh;
-        display: flex;
-        flex-direction: column;
-        margin-right: 0px;
-        
-      }
-     
-.content{
-
-    top:70%
-}
-
-.content h1{
-    margin-top: 80px;
-    font-size: 55px;
-    font-family:'gt-sectra';
-    font-family:'gt-gotham';
-    font-weight: 200;
-    margin-bottom:-200px;
-    margin-right: 700px;
-    width: 63%;
-}
-      
-  .immg{
-    background-image: url('../assets/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg');
-    /* background-repeat: no-repeat; */
-    background-attachment: absolute;
-    background-size: 100% 100%;
-    height: 750px;
-    width: 915px;
-    
-    margin-top: -20px;
-    margin-left: -74px;
-}
-
-.ik_text
-{
-    height: 500px;
-    width: 500px;
-    
-    margin-top: 100px;
-    margin-left: 54px;
-
-}
-
-.img2 img{
-    width: 0px;
-    margin-top: 249px;
-    position:absolute;
-}
-  .img1{
-    position: relative;
-  } 
-
-  .ss{
-    margin-left: 17px;
-  }
-
-  .we_t{
-    margin-left: -177px;
-  }
-
-  .earth{
-    height: 459px;
-  }
-}
  
 /* .c-img-txt-2 {
     position: relative

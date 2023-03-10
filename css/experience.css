@@ -284,7 +284,7 @@ button:hover{
   }
 
   .ss{
-    margin-left:250px
+    margin-left:0px
   }
 
   .ttl1
@@ -469,6 +469,9 @@ position: absolute;
 /* border-style:dotted ;
 border-color: rgb(13, 14, 14); */
 margin-top: 52px;
+height:"900px";
+  width:"1300px" ;margin-left: "25px;"
+
 }
 
 .al2-1
@@ -560,6 +563,280 @@ border-color: rgb(13, 14, 14); */
     position: relative;
     overflow: hidden;
 }
+
+
+@media screen and (min-width: 600px) and (max-width: 918px) {
+    
+  .content h1{
+      
+      font-size: 55px;
+      
+  }
+  .navbar ul {
+      flex-direction: column;
+      text-align: center;
+      
+
+    }
+  .navbar{
+      flex-direction: column;
+  }
+
+  
+    .navbar ul li {
+       display: list-item;
+      flex-direction: column;
+      
+      margin: 1em 0;
+      
+      
+    }
+
+    .main_t table tr {
+      border-bottom: 0px solid #ddd;
+      display: block;
+      margin-bottom: -0.5em;
+      font-size: 20px;
+      text-align: center;
+     
+    }
+    
+    .main_t table td {
+      border-bottom: 0.5px solid #ddd;
+      display: block;
+      font-size: 1.8em;
+      text-align: center;
+      margin-top: 13px;
+    }
+   
+    
+    .main_t table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    .main_t table td:last-child {
+      border-bottom: 0;
+    }
+    .credit{
+      width: 100%;
+      height: 900px;
+     
+  }
+    .credit img{
+      margin-left: 40px;
+    }
+
+    .credit p{
+      color: white;
+      margin-left: 40px;
+      margin-top: 330px;
+
+      opacity: 0.5;
+    }
+
+    .tably table{
+      margin-left: -449px;
+      margin-top: 100px;
+    }
+    .tably table tr {
+      display: list-item;
+      display: block;
+     width:100%;
+     margin-right: -92px;
+   height: 0px;
+      text-align: center;
+     
+    }
+
+    .tably table td{
+      height: 50px;
+    }
+
+    .pre
+    {
+      margin-left: 30px;
+      margin-bottom: 11px;
+    }
+
+    #pr1{
+      width: 100%;
+    }
+
+    #ddd{
+      width:100%;
+      height: 10vh;
+      display: flex;
+      flex-direction: column;
+      margin-right: 0px;
+      
+    }
+   
+.content{
+
+  top:70%
+}
+
+.content h1{
+  margin-top: 80px;
+  font-size: 55px;
+  font-family:'gt-sectra';
+  font-family:'gt-gotham';
+  font-weight: 200;
+  margin-bottom:-200px;
+  margin-right: 700px;
+  width: 63%;
+}
+    
+.immg{
+  background-image: url('../assets/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg');
+  /* background-repeat: no-repeat; */
+  background-attachment: absolute;
+  background-size: 100% 100%;
+  height: 750px;
+  width: 915px;
+  
+  margin-top: -20px;
+  margin-left: -74px;
+}
+
+.ik_text
+{
+  height: 500px;
+  width: 500px;
+  
+  margin-top: 100px;
+  margin-left: 54px;
+
+}
+
+.img2 img{
+  width: 0px;
+  margin-top: 249px;
+  position:absolute;
+}
+.img1{
+  position: relative;
+} 
+
+.ss{
+  margin-left: 17px;
+}
+
+.we_t{
+  margin-left: -177px;
+}
+
+.earth{
+  height: 459px;
+}
+
+.pk{
+  font-size: 293%;
+  margin-left: -298px;
+}
+
+.pk1{
+  font-size: 293%;
+  margin-left: -317px;
+}
+
+.pk2{
+  font-size: 293%;
+  margin-left: -503px;
+}
+
+.maintxt
+{
+  height: 500px;
+  width: 500px;
+  float: left;
+  /* border-style:dotted ;
+  border-color: rgb(10, 11, 11); */
+  margin-left: 94px;
+  margin-top: -169px;
+}
+
+.adia img{
+  height:"550px"; 
+  width:"400px";
+  position: absolute;
+  margin-left: "11px";
+  margin-top: 362px;
+ 
+}
+
+.ss{
+margin-left: 115px;
+}
+
+.pch{
+margin-left: 112px;
+}
+
+.al2 img{
+width: 600px;
+height: 700px;
+}
+
+.al1{
+height: 700px;
+width: 500px;
+float: left;
+position: relative;
+background-color: rgb(114, 122, 93);
+margin-left: 149px;
+margin-top: 96px;
+}
+
+.al3{
+height: 567px;
+width: 495px;
+position: absolute;
+background-color: white;
+margin-left: 274px;
+margin-top: 128px;
+}
+
+.al3-1{
+height: 550px;
+width: 550px;
+position: absolute;
+background-color: white;
+margin-left: 17px;
+margin-top: -72px;
+}
+.al2-1 img{
+width: 600px;
+height: 700px;
+  /* margin-right: 102px; */
+  margin-left: -365px;
+  /* margin-bottom: -33px; */
+  margin-top: -197px;
+}
+
+.al1-1{
+height: 700px;
+width: 500px;
+float: left;
+position: relative;
+background-color: rgb(114, 122, 93);
+margin-left: 141px;
+margin-top: -104px;
+}
+
+.dwn img{
+height: 715px;
+}
+
+}
+
 
 @media screen and (max-width: 600px) {
     .content h1{
@@ -748,215 +1025,108 @@ display: list-item;
     border-color: #e84393;
     border-radius: 5px; */
 }
-    
-  }
-  @media screen and (min-width: 600px) and (max-width: 918px) {
-    
-    .content h1{
-        
-        font-size: 55px;
-        
-    }
-    .navbar ul {
-        flex-direction: column;
-        text-align: center;
-        
 
-      }
-    .navbar{
-        flex-direction: column;
-    }
-  
-    
-      .navbar ul li {
-         display: list-item;
-        flex-direction: column;
-        
-        margin: 1em 0;
-        
-        
-      }
-
-      .main_t table tr {
-        border-bottom: 0px solid #ddd;
-        display: block;
-        margin-bottom: -0.5em;
-        font-size: 20px;
-        text-align: center;
-       
-      }
-      
-      .main_t table td {
-        border-bottom: 0.5px solid #ddd;
-        display: block;
-        font-size: 1.8em;
-        text-align: center;
-        margin-top: 13px;
-      }
-     
-      
-      .main_t table td::before {
-        /*
-        * aria-label has no advantage, it won't be read inside a table
-        content: attr(aria-label);
-        */
-        content: attr(data-label);
-        float: left;
-        font-weight: bold;
-        text-transform: uppercase;
-      }
-      
-      .main_t table td:last-child {
-        border-bottom: 0;
-      }
-      .credit{
-        width: 100%;
-        height: 900px;
-       
-    }
-      .credit img{
-        margin-left: 40px;
-      }
-
-      .credit p{
-        color: white;
-        margin-left: 40px;
-        margin-top: 330px;
-
-        opacity: 0.5;
-      }
-
-      .tably table{
-        margin-left: -449px;
-        margin-top: 100px;
-      }
-      .tably table tr {
-        display: list-item;
-        display: block;
-       width:100%;
-       margin-right: -92px;
-     height: 0px;
-        text-align: center;
-       
-      }
-
-      .tably table td{
-        height: 50px;
-      }
-
-      .pre
-      {
-        margin-left: 30px;
-        margin-bottom: 11px;
-      }
-
-      #pr1{
-        width: 100%;
-      }
-
-      #ddd{
-        width:100%;
-        height: 10vh;
-        display: flex;
-        flex-direction: column;
-        margin-right: 0px;
-        
-      }
-     
-.content{
-
-    top:70%
-}
-
-.content h1{
-    margin-top: 80px;
-    font-size: 55px;
-    font-family:'gt-sectra';
-    font-family:'gt-gotham';
-    font-weight: 200;
-    margin-bottom:-200px;
-    margin-right: 700px;
-    width: 63%;
-}
-      
-  .immg{
-    background-image: url('../assets/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg');
-    /* background-repeat: no-repeat; */
-    background-attachment: absolute;
-    background-size: 100% 100%;
-    height: 750px;
-    width: 915px;
-    
-    margin-top: -20px;
-    margin-left: -74px;
-}
-
-.ik_text
-{
-    height: 500px;
-    width: 500px;
-    
-    margin-top: 100px;
-    margin-left: 54px;
-
-}
-
-.img2 img{
-    width: 0px;
-    margin-top: 249px;
-    position:absolute;
-}
-  .img1{
-    position: relative;
-  } 
-
-  .ss{
-    margin-left: 17px;
-  }
-
-  .we_t{
-    margin-left: -177px;
-  }
-
-  .earth{
-    height: 459px;
-  }
-
-  .pk{
-    font-size: 293%;
-    margin-left: -298px;
+.pk{
+  font-size: 225%;
+  margin-left: -273px;
 }
 
 .pk1{
-    font-size: 293%;
-    margin-left: -317px;
+  font-size: 225%;
+  margin-left: -292px;
 }
 
 .pk2{
-    font-size: 293%;
-    margin-left: -503px;
+  font-size: 225%;
+  margin-left: -434px;
 }
 
 .maintxt
 {
-    height: 500px;
-    width: 500px;
-    float: left;
-    /* border-style:dotted ;
-    border-color: rgb(10, 11, 11); */
-    margin-left: 94px;
-    margin-top: -169px;
+  height: 500px;
+  width: 500px;
+  float: left;
+  /* border-style:dotted ;
+  border-color: rgb(10, 11, 11); */
+  margin-left: -50px;
+  margin-top: -169px;
 }
 
- .adia img{
-    height:"550px"; 
-    width:"400px";
-    position: absolute;
-    margin-left: "11px";
-    margin-top: 362px;
-    display: flex;
-    align-items: left;
-    justify-content: left;
+.adia img{
+  height:"550px"; 
+  width:"400px";
+  position: absolute;
+  margin-left: "11px";
+  margin-top: 362px;
+ 
 }
 
+.ss{
+margin-left: 115px;
 }
+
+
+.pch{
+  margin-left: 112px;
+}
+
+.al2 img{
+  width: 400px;
+height: 713px;
+}
+
+.al1{
+  height: 700px;
+  width: 300px;
+  float: left;
+  position: relative;
+  background-color: rgb(114, 122, 93);
+  margin-left: 133px;
+  margin-top: 96px;
+}
+
+.al3{
+  height: 567px;
+  width: 480px;
+  position: absolute;
+  background-color: white;
+  margin-left: 44px;
+  margin-top: 127px;
+}
+
+.al3-1{
+  height: 550px;
+  width: 496px;
+  position: absolute;
+  background-color: white;
+  margin-left: 6px;
+  margin-top: -72px;
+}
+.al2-1 img{
+  width: 400px;
+height: 713px;
+    /* margin-right: 102px; */
+    margin-left: -421px;
+    /* margin-bottom: -33px; */
+    margin-top: -197px;
+}
+
+.al1-1{
+  height: 700px;
+  width: 300px;
+  float: left;
+  position: relative;
+  background-color: rgb(114, 122, 93);
+  margin-left: 96px;
+  margin-top: -104px;
+}
+
+.dwn img{
+  height: 715px;
+}
+.cv{
+  font-size: small;
+}
+    
+  }
+ 
